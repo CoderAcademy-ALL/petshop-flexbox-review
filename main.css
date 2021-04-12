@@ -1,0 +1,27 @@
+:root {
+  --header-height: 4rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // border: 1px solid black;
+}
+header {
+  text-align: center;
+  height: var(--header-height);
+  line-height: var(--header-height);
+}
+.card {
+  width: 400px;
+  max-width: 100%;
+  border: 1px solid #252424;
+  border-radius: 2px;
+  margin: 5px 0;
+}
+.card img {
+  width: 200px;
+  height: 200px;
+}
+
